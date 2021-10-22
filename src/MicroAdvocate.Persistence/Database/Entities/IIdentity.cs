@@ -1,4 +1,4 @@
-﻿namespace MicroAdvocate.Persistence.Database
+﻿namespace MicroAdvocate.Persistence.Database.Entities
 {
     public interface IIdentity<TId> where TId : struct
     {

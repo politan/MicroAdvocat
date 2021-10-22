@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace MicroAdvocate.Persistence.Database
+namespace MicroAdvocate.Persistence.Database.Contexts
 {
     public abstract class DatabaseContext : DbContext, IDatabaseContext
     {

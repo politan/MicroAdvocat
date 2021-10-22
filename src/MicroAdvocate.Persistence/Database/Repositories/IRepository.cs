@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using MicroAdvocate.Persistence.Database.Entities;
 
-namespace MicroAdvocate.Persistence.Database
+namespace MicroAdvocate.Persistence.Database.Repositories
 {
     public interface IRepository<TEntity, in TIdentity>
         where TEntity : IIdentity<TIdentity>

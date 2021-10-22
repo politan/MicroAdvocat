@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace MicroAdvocate.Persistence.Database
+namespace MicroAdvocate.Persistence.Database.Contexts
 {
     public interface IDatabaseContext
     {
